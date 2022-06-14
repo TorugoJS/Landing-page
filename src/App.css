@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  padding: 40px 0;
+  width: 100%;
+  background-color: blueviolet;
+  background-image: url(https://cdn.discordapp.com/attachments/961768997563543575/986325052549103636/pexels-realtoughcandycom-11035471.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  max-width: 600px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form input[type=text] {
+  width: 30%;
+  justify-content: space-around;
+  height: 30px;
+
+}
+
+.items-form {
+  margin: 0 auto;
+  max-width: 540px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.items-form input[type=text] {
+  width: 48%;
+  height: 30px;
+  margin: 8px 0px;
+  padding-left: 10px;
+}
+
+.items-form input[type=submit] {
+  width: 100%;
+  height: 40px;
+  margin-top: 8px;
+  background-color:rgb(61, 233, 233);
+}
+
+.form h2,
+h2 {
+  color: white;
+  font-size: 25px;
+}
+
+.conteudo1 {
+  width: 50%;
+  padding: 8px 30px;
+  margin-top: 50px;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .items-form input[type=text] {
+    width: 100%;
+    margin: 10px;
+  }
+ 
+
+  .conteudo1 {
+    width: 100%;
+  }
+}
