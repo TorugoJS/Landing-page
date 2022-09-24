@@ -1,10 +1,10 @@
-# Landing page - React.js
+# Landing page!
 
-Projeto criado para demonstrar meus conhecimentos em React.js
+## Projeto criado para mostrar meus conhecimentos em React.js!
 
-✔ Formulários  <br>
-✔ Estilização com css <br>
-✔ Responsividade <br> 
+### ✔ Formulários <br>
+### ✔ Estilização com css <br>
+### ✔ Responsividade <br> 
 
 <hr>
 
